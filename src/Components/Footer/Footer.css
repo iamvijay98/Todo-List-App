@@ -1,0 +1,14 @@
+.footer{
+    color: #ffff;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.footer p{
+    font-size: 20px;
+}
+@media screen and (max-width:430px){
+    .footer p{
+        font-size: 18px;
+    }
+}

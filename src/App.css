@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Baloo Paaji 2', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-App{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at 10% 20%, rgb(120, 50, 255) 0%, rgb(50, 150, 250) 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-container{
+    width: 70%;
+    height: 85%;
+    border-radius: 30px;
+    background: radial-gradient(circle at 10% 20%, rgb(92, 35, 207) 0%, rgb(27, 110, 194) 91%);
+    padding: 20px;
+    position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width:430px){
+    .todo-container{
+        width: 100vw;
+        height: 100vh;
+        background:transparent;
+        border-radius: 0px;
+    }
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width:360px){
+    .todo-container{
+        padding:0px 20px;
+        min-height: 100vh;
+    }
 }
