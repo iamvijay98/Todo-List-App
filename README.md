@@ -38,6 +38,7 @@ The "React Todo List with Local Storage" project is a web-based task management 
 By creating the "React Todo List with Local Storage" project using React and integrating local storage for data persistence, you are offering a valuable task management solution that combines usability with data resilience. This open-source approach encourages collaboration and continuous improvement, making it an ideal choice for developers seeking a reliable and customizable task management application that can be deployed locally and maintain task data across sessions.
 
 
+# Screenshots:
 
 
 
